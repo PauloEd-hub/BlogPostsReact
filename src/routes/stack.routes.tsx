@@ -8,11 +8,19 @@ import { Home } from '../pages/Home';
 // import { MyPosts } from '../pages/MyPosts';
 
 export type RootStackParamList = {
+<<<<<<< Updated upstream
     CreatePost: undefined;
     Home: undefined;
     EditPost: undefined;
     RequestStatus: undefined;
     MyPosts: undefined;
+=======
+    // CreatePost: undefined;
+    Home: undefined;
+    // EditPost: undefined;
+    // RequestStatus: undefined;
+    // MyPosts: undefined;
+>>>>>>> Stashed changes
 };
 
 const stackRoutes = createStackNavigator<RootStackParamList>();

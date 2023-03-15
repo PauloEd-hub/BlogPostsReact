@@ -7,6 +7,10 @@ import { ActivityIndicator, View} from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import Loading from "../components/Loading";
 import logo from '../assets/icon.png';
+<<<<<<< Updated upstream
+=======
+import { PostsContext } from "../contexts/posts";
+>>>>>>> Stashed changes
 import { MainContent, Content, ContentButton, DivButton, HeaderButtonText, Main, MainButton, MainButtonText, MainContentText,SafeAreaView, MainContentTitle, MainHeader, TextInput, UserIcon, UserName } from "../styles/styles";
 import api from '../Services/api';
 

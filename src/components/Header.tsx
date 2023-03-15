@@ -1,11 +1,19 @@
 import React from 'react';
 
 import {HeaderContent, HeaderLogo, LogoImage, LogoText, DivButton, HeaderButton, HeaderButtonText, HeaderLink, HeaderLinkText} from '../styles/styles';
+<<<<<<< Updated upstream
 // import logo from '../assets/icon.png';
 
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 // import { RootStackParamList } from '../routes/stack.routes';
+=======
+import { RootStackParamList } from '../routes/stack.routes';
+import logo from '../assets/icon.png';
+
+import { useNavigation } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
+>>>>>>> Stashed changes
 
 
 
